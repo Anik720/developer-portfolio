@@ -6,7 +6,7 @@ body{
 .orange-color{
   color: orange;
 }
-section{
+.flexiable{
   display: flex;
 }
 .btn-hire{
@@ -34,4 +34,25 @@ width: 80%;
   background-image: url(images/dream-bg.png) ;
   background-repeat: no-repeat;
   background-position: right;
+  
+  
+}
+.experince{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 80px;
+}
+.experince-item{
+  height: 400px;
+  width: 40%;
+ border-left: 20px green solid ;
+ border-image: linear-gradient(blue, skyblue);
+ border-image-slice: 1;
+  box-shadow: 10px 10px 40px gray;
+  margin-left:5% ;
+  
+}
+footer p{
+  text-align: center;
 }
